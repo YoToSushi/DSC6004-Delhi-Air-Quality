@@ -1,0 +1,12 @@
+﻿Metric,Value
+Original_Rows,317031
+Modeling_Rows,309846
+Removed_Rows,7185
+Station_Count,15
+Feature_Count,25
+Target_Name,AQI_Next_Hour
+Target_Missing_Count,0
+Target_Extreme_AQI_Count,11342
+Target_Extreme_AQI_Percentage,3.661
+Start_Time,2018-02-02 00:00:00
+End_Time,2020-06-30 23:00:00
