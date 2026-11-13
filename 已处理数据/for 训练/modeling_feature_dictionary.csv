@@ -1,0 +1,30 @@
+﻿Feature,Description,Role
+Datetime,Prediction issue time（预测起点时间）,Metadata（时间或站点信息）
+Target_Datetime,Target observation time（预测目标对应时间）,Metadata（时间或站点信息）
+AQI_Next_Hour_Extreme_Flag,Next-hour extreme AQI flag（下一小时极端 AQI 标记）,Metadata（时间或站点信息）
+StationId,Monitoring station ID（监测站编号）,Input feature（模型输入特征）
+AQI_Current,Current AQI（当前小时 AQI）,Input feature（模型输入特征）
+AQI_Lag_1,AQI one hour ago（前一小时 AQI）,Input feature（模型输入特征）
+AQI_Lag_2,AQI two hours ago（前两小时 AQI）,Input feature（模型输入特征）
+AQI_Lag_3,AQI three hours ago（前三小时 AQI）,Input feature（模型输入特征）
+AQI_Lag_24,AQI 24 hours ago（前一天同一时刻 AQI）,Input feature（模型输入特征）
+PM25_Lag_1,PM2.5 concentration one hour ago（前一小时 PM2.5）,Input feature（模型输入特征）
+PM10_Lag_1,PM10 concentration one hour ago（前一小时 PM10）,Input feature（模型输入特征）
+NO2_Lag_1,NO2 concentration one hour ago（前一小时 NO2）,Input feature（模型输入特征）
+CO_Lag_1,CO concentration one hour ago（前一小时 CO）,Input feature（模型输入特征）
+O3_Lag_1,O3 concentration one hour ago（前一小时 O3）,Input feature（模型输入特征）
+Rain_mm_Current,Current available rainfall（当前时刻已获得的降雨量）,Input feature（模型输入特征）
+Rain_mm_Lag_1,Rainfall one hour ago（前一小时降雨量）,Input feature（模型输入特征）
+Rain_3h_Total,Total rainfall over current and previous two hours（最近三小时累计降雨量）,Input feature（模型输入特征）
+Temperature_C_Current,Current temperature（当前气温）,Input feature（模型输入特征）
+Humidity_pct_Current,Current relative humidity（当前相对湿度）,Input feature（模型输入特征）
+WindSpeed_kmh_Current,Current wind speed（当前风速）,Input feature（模型输入特征）
+Hour,Hour of day（一天中的小时）,Input feature（模型输入特征）
+DayOfWeek,Day of week（星期）,Input feature（模型输入特征）
+Month,Calendar month（月份）,Input feature（模型输入特征）
+Season,Season category（季节分类）,Input feature（模型输入特征）
+Hour_Sin,Cyclical hour sine encoding（小时周期正弦编码）,Input feature（模型输入特征）
+Hour_Cos,Cyclical hour cosine encoding（小时周期余弦编码）,Input feature（模型输入特征）
+Month_Sin,Cyclical month sine encoding（月份周期正弦编码）,Input feature（模型输入特征）
+Month_Cos,Cyclical month cosine encoding（月份周期余弦编码）,Input feature（模型输入特征）
+AQI_Next_Hour,Next-hour AQI prediction target（下一小时 AQI 预测目标）,Prediction target（预测目标）
